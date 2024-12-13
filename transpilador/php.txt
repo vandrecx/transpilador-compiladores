@@ -1,0 +1,22 @@
+<?php
+$y;
+$w="bom dia";
+$y=10;
+$x=5;
+function soma($a,$b){
+  $z=$a+$b;
+  return $z;
+}
+$z = soma($x, $y);
+while($z>10){
+  $z = $z-1;
+}
+
+if($z==10 && $x>4){
+  $y = 20;
+} else if($z!=10){
+  $y = 10;
+} else {
+  $y = 5;
+}
+?>
